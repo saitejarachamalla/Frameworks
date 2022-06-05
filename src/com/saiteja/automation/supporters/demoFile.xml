@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee>
+ <emp>
+  <empname>saiteja</empname>
+  <empsal>120000</empsal>
+  <empdesi>Software eng</empdesi>
+ </emp>
+ <emp>
+  <empname>Rk</empname>
+ 	<empsal>150000</empsal>
+     <empdesi>soft</empdesi>
+ </emp>
+</employee>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.saiteja.automation.opercart.pageobject.VerifyHeaders">
+        <methods>
+          <include name="beforeTCExectuion"/>
+          <include name="openbroswer"/>
+          <include name="afterTCExecution"/>
+          <include name="initReports"/>
+          <include name="closebrowser"/>
+          <include name="verifyHeaders"/>
+          <include name="generateReports"/>
+        </methods>
+      </class> <!-- com.saiteja.automation.opercart.pageobject.VerifyHeaders -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

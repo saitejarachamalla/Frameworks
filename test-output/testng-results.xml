@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23784" started-at="2022-05-16T06:18:51Z" finished-at="2022-05-16T06:19:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23784" started-at="2022-05-16T06:18:51Z" finished-at="2022-05-16T06:19:15Z">
+      <class name="com.saiteja.automation.frameworks.business.OpenCartTest">
+        <test-method status="PASS" signature="openbroswer(java.lang.String)[pri:0, instance:com.saiteja.automation.frameworks.business.OpenCartTest@5702b3b1]" name="openbroswer" is-config="true" duration-ms="3788" started-at="2022-05-16T11:48:47Z" finished-at="2022-05-16T11:48:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbroswer -->
+        <test-method status="PASS" signature="initReports()[pri:0, instance:com.saiteja.automation.frameworks.business.OpenCartTest@5702b3b1]" name="initReports" is-config="true" duration-ms="355" started-at="2022-05-16T11:48:51Z" finished-at="2022-05-16T11:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReports -->
+        <test-method status="PASS" signature="beforeTCExectuion(java.lang.reflect.Method)[pri:0, instance:com.saiteja.automation.frameworks.business.OpenCartTest@5702b3b1]" name="beforeTCExectuion" is-config="true" duration-ms="4" started-at="2022-05-16T11:48:52Z" finished-at="2022-05-16T11:48:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saiteja.automation.frameworks.business.OpenCartTest.airlinesDatePicker() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExectuion -->
+        <test-method status="PASS" signature="airlinesDatePicker()[pri:0, instance:com.saiteja.automation.frameworks.business.OpenCartTest@5702b3b1]" name="airlinesDatePicker" duration-ms="23047" started-at="2022-05-16T11:48:52Z" finished-at="2022-05-16T11:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- airlinesDatePicker -->
+        <test-method status="PASS" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.saiteja.automation.frameworks.business.OpenCartTest@5702b3b1]" name="afterTCExecution" is-config="true" duration-ms="321" started-at="2022-05-16T11:49:15Z" finished-at="2022-05-16T11:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=airlinesDatePicker status=SUCCESS method=OpenCartTest.airlinesDatePicker()[pri:0, instance:com.saiteja.automation.frameworks.business.OpenCartTest@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+        <test-method status="PASS" signature="generateReports()[pri:0, instance:com.saiteja.automation.frameworks.business.OpenCartTest@5702b3b1]" name="generateReports" is-config="true" duration-ms="35" started-at="2022-05-16T11:49:15Z" finished-at="2022-05-16T11:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.saiteja.automation.frameworks.business.OpenCartTest@5702b3b1]" name="closebrowser" is-config="true" duration-ms="251" started-at="2022-05-16T11:49:15Z" finished-at="2022-05-16T11:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.saiteja.automation.frameworks.business.OpenCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

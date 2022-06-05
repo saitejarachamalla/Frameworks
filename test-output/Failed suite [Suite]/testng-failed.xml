@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <listeners>
+    <listener class-name="com.saiteja.automation.listeners.Testcaseadapter"/>
+  </listeners>
+  <test name="Test(failed)(failed)">
+    <classes>
+      <class name="com.saiteja.automation.frameworks.business.sredupublications">
+        <methods>
+          <include name="openbroswer"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.saiteja.automation.frameworks.business.sredupublications -->
+      <class name="com.saiteja.automation.frameworks.business.GmailTest">
+        <methods>
+          <include name="beforeTCExectuion"/>
+          <include name="gmailTest"/>
+        </methods>
+      </class> <!-- com.saiteja.automation.frameworks.business.GmailTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
